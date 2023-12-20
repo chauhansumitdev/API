@@ -1,0 +1,24 @@
+representational state transfer (rest)
+defines the guidelines how the client and server sent the data at particular state .
+representational - state of the resource is represented in a format that can be understood by the clients.
+
+guidelines of rest -
+client server 
+cachable - data sent by the server need to be cachable by the ui
+layered - atomic transactions like one transaction need to know about the current task no matter what the server is doing things related to other stuffs
+stateless - the server servers the request equally form any device does not save the state who requested for the response
+exception for being stateless is authorisation and authentication
+uniform interface-
+
+
+URI -> uniform resource identifier. string of characters that  identify a particular resource.
+two types - URL, URN
+url- access resource directly over a protocol
+urn - uniform resource name - it gives the name of the resource rather than how to access the resource
+
+path parameters - :3 <- paticualar path for the resource
+query parameters - limit the amount of response of the particular query - ?liit=...so on in the uri
+
+rest is implementd over https using methods
+
+heaers - metadata about the req./res.

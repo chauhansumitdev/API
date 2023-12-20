@@ -1,0 +1,8 @@
+routing
+middlewares
+templating(pug,ejs)
+db integration
+api development
+authentication and authorisation
+err handeling
+testing

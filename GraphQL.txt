@@ -1,0 +1,24 @@
+unlike the restapis where the server decides the structure of the content of the resonse, graphql allows clients to specify the structure of the response .
+
+schema
+query
+mutation - mofify
+subscription - real time data
+
+eg-
+query {
+  post(id: 123) {
+    title
+    content
+    author {
+      name
+      email
+    }
+    comments {
+      text
+      user {
+        name
+      }
+    }
+  }
+}
