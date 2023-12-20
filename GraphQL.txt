@@ -1,3 +1,6 @@
+Graph query language
+The "Graph" in GraphQL refers to the way it allows clients to query the graph-like data structures.
+
 unlike the restapis where the server decides the structure of the content of the resonse, graphql allows clients to specify the structure of the response .
 
 schema

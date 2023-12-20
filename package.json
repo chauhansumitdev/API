@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "startrest" : "node expressRESTAPI.js",
-    "startgraphql":"node expressGraphQL.js"
+    "startrest": "node expressRESTAPI.js",
+    "startgraphql": "node expressGraphQL.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0"
   }
 }
-
